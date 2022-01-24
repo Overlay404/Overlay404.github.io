@@ -80,7 +80,7 @@
                 <div class="card" style="width: 18rem;">
                     <img src="img/алина.jpg" class="card-img-top rounded" style="width: 95%; margin: auto; margin-top: 5px" alt="...">
                     <div class="card-body">
-                      <p class="card-text" style="font-size: 18px;">Алина Нуршаяхова💩<br>Вконтакте: 
+                      <p class="card-text" style="font-size: 18px;">Алина Нуршаяхова<br>Вконтакте: 
                         <a href="https://vk.com/4alinkass" class="link" style= "color: rgb(12, 0, 24); text-decoration: none; font-size: 18px;">https://vk.com/4alinkass</a>
                         </p>
                     </div>
@@ -264,7 +264,47 @@
 
             
             
+            
         </div>
     </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">🡅</button>
+
+    
+    <script>
+    
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+  
+    <div style="background-color:black; color:white; padding: 20px;">
+      <p style="padding: 30px;">
+      Designed by Ruslan Garipov and Denis Alekseev
+      <a href=" https://github.com/Overlay404/Overlay404.github.io " style="float: right; margin-right: 60px;">
+      <img src="img/github-square-brands.svg" style="background: white; width: 40px; height: 40px; border-radius: 10%;">
+      </a>
+      <a href="https://vk.com/zakrojochko" style="float: right; margin-right: 30px;">
+        <img src="img/registered-solid.svg" style="background: white; border-radius: 50%; width: 40px; height: 40px;">
+        </a>
+        <a href="https://vk.com/dennis_alekseev" style="float: right; margin-right: 30px;">
+          <img src="img/1000.png" style="background: white; width: 40px; height: 40px;  border-radius: 50%">
+          </a>
+      </p>
+      </div> 
+    
+  </div>
 </body>
 </html>

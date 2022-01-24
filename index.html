@@ -121,5 +121,43 @@
         </div>
 
     </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">🡅</button>
+
+    
+    <script>
+    
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+<div style="background-color:black; color:white; padding: 20px;">
+  <p style="padding: 30px;">
+  Designed by Ruslan Garipov and Denis Alekseev
+  <a href=" https://github.com/Overlay404/Overlay404.github.io " style="float: right; margin-right: 60px;">
+  <img src="img/github-square-brands.svg" style="background: white; width: 40px; height: 40px; border-radius: 10%;">
+  </a>
+  <a href="https://vk.com/zakrojochko" style="float: right; margin-right: 30px;">
+    <img src="img/registered-solid.svg" style="background: white; border-radius: 50%; width: 40px; height: 40px;">
+    </a>
+    <a href="https://vk.com/dennis_alekseev" style="float: right; margin-right: 30px;">
+      <img src="img/1000.png" style="background: white; width: 40px; height: 40px;  border-radius: 50%">
+      </a>
+  </p>
+  </div> 
+
+</div>
 </body>
 </html>
