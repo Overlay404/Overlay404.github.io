@@ -76,3 +76,21 @@ body{
   #myBtn:hover {
     background-color: #555;
   }
+  .img_1{
+    background: white; width: 40px; height: 40px; border-radius: 10%;
+  }
+  .img_2{
+    background: white; border-radius: 50%; width: 40px; height: 40px;
+  }
+  .img_3{
+    background: white; width: 40px; height: 40px;  border-radius: 50%;
+  }
+  .img_1:hover{
+    background: rgb(248, 142, 3); width: 40px; height: 40px; border-radius: 10%;
+  }
+  .img_2:hover{
+    background: rgb(248, 142, 3); border-radius: 50%; width: 40px; height: 40px;
+  }
+  .img_3:hover{
+    background: rgb(248, 142, 3); width: 40px; height: 40px;  border-radius: 50%;
+  }
